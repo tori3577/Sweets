@@ -1,0 +1,44 @@
+img { 
+	height:300px;
+	width:200px;
+	border:3px solid #FF94FF;
+}
+table {
+	margin-left:auto;
+	margin-right:auto;
+}
+h1 {text-align: center;
+	position: relative;
+        font-size: 70px;
+        margin-top: 0;
+        font-family: helvetica, arial;
+    }
+     
+    h1 a {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+         
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
+    }
+     
+    h1:after {
+        content : 'Fancy cakes';
+        color: red;
+        text-shadow: 0 1px 0 white;
+    }
+
+	body {
+background-image: url("Image/back.jpg");
+background-size:cover;
+ }
+ #Button {
+    height:200px;
+    width:200px;
+    display:block;
+    margin-right:auto;
+    margin-left: auto;
+    border: none;
+}
+
+    
